@@ -137,4 +137,64 @@ img.scroll {
   margin-left: 805px;
 }
 
+.block2 {
+  width: 920px;
+  height: 395px;
+  background: #FFFFFF;
+  box-shadow: 5px 6px 43px rgba(30, 60, 114, 0.3);
+  border-radius: 8px;
+  left: 0;
+  right: 0;
+  margin: 70px auto;
+}
+
+.block2-1 {
+  width: 600px;
+  padding: 30px 0 0 250px;
+}
+.block2-1 h2 {
+  font-weight: bold;
+  font-size: 36px;
+  color: #1E3C72;
+}
+.block2-1 p {
+  font-weight: 550;
+  font-size: 18px;
+  line-height: 140%;
+  color: #1E3C72;
+}
+
+p.t2 {
+  font-size: 14px;
+  line-height: 165%;
+  color: #2A5298;
+}
+
+img.circle {
+  position: absolute;
+  display: block;
+  right: 190px;
+  width: 60px;
+  height: 75px;
+}
+
+img.circle1 {
+  position: absolute;
+  right: 400px;
+  width: 40px;
+  height: 38px;
+}
+
+img.orcs {
+  position: absolute;
+  margin-top: -100px;
+}
+
+.block3 {
+  background: url(../img/bg1.png);
+  max-width: 1440px;
+  width: 100%;
+  height: 450px;
+}
+
 /*# sourceMappingURL=style.css.map */
