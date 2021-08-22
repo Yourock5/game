@@ -471,7 +471,7 @@ img.man2 {
 .block7 {
   background: url(img/bg5.png);
   width: 100%;
-  height: auto;
+  height: 700px;
   margin-top: -30px;
 }
 .block7 h2 {
@@ -481,18 +481,34 @@ img.man2 {
   padding: 60px 0 0 150px;
 }
 
-.polygon {
+.n {
   display: flex;
   justify-content: center;
-  padding-bottom: 30px;
 }
-.polygon img {
-  width: 20%;
-  margin-right: 20px;
+
+.neo {
+  width: 250px;
+  height: 250px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 5px;
 }
-.polygon p {
-  color: #fff;
-  position: absolute;
+.neo p {
+  font-size: 16px;
+  line-height: 130%;
+  text-align: center;
+  color: #FFFFFF;
+  width: 80%;
+}
+
+.neo1 {
+  background-color: #fff;
+}
+.neo1 p {
+  color: #1E3C72;
 }
 
 .block8 {
@@ -819,6 +835,24 @@ img.s {
   .b-l img {
     width: 40px;
     height: 17px;
+  }
+
+  .block7 {
+    height: auto;
+  }
+  .block7 h2 {
+    font-size: 24px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 30px 0 40px 0;
+  }
+
+  .n {
+    flex-wrap: wrap;
+  }
+
+  .neo {
+    margin: 5px 5px;
   }
 
   .block9 {
