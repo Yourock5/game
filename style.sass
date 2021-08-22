@@ -25,9 +25,7 @@ header
     align-items: center
     max-width: 1440px
     width: 100%
-    margin: 0px auto
     padding: 0 100px 0 130px
-    box-sizing: border-box
 img.logo 
     width: 256px
     height: 57px
@@ -146,6 +144,7 @@ p.name
     justify-content: space-evenly
     align-items: center
     width: 370px
+    margin-top: 20px
     p 
         font-size: 14px
         line-height: 124%
@@ -258,13 +257,16 @@ img.orcs
         line-height: 7px
 
 .block4 
-    background: #E5E5E5
+    background: #fff
+    height: 300px
+    margin-top: -30px
     h1
         font-size: 48px
         line-height: 133%
         color: #1E3C72
         display: flex
         justify-content: center
+        padding-top: 30px
 .line2 
     width: 1110.02px
     height: 0px
@@ -345,6 +347,7 @@ img.man2
     background: url(img/bg5.png)
     width: 100%
     height: auto
+    margin-top: -30px
     h2 
         font-size: 36px
         line-height: 133%
@@ -364,6 +367,9 @@ img.man2
     img 
         width: 20%
         margin-right: 30px
+    p 
+        color: #fff 
+        position: absolute
         
 .block8 
     background-color: #fff
@@ -385,26 +391,32 @@ img.man2
     display: flex
     justify-content: center
     align-items: center
-.soc
+button.soc 
     width: 270px
     height: 57px
     background: linear-gradient(90deg, #3B529E 0%, #CE51CE 100%)
     border-radius: 100px
+    border: none
+    display: flex
     margin: 50px 5px
+    justify-content: center
+    align-items: center
+    cursor: pointer
+    transition-duration: 0.8s
+    &:hover
+        background: linear-gradient(90deg, #0e2588 0%, #960ca0 100%)
     p 
         font-size: 14px
         text-transform: uppercase
         color: #FFFFFF
-.set 
-    display: flex
-    justify-content: center
-    align-items: center
-    line-height: 20px
+img.s 
+    margin-left: 20px
 
 .block9 
     background: url(img/bg6.png)
     width: 100%
     height: 350px
+    margin-top: -30px
     h4 
         font-weight: bold
         font-size: 24px
@@ -441,12 +453,11 @@ img.man2
         display: flex
         justify-content: center
         align-items: center
-        line-height: 10px
         margin-right: 3px
         cursor: pointer
-        transition-duration: 11.8s
+        transition-duration: 0.8s
         &:hover
-            background: linear-gradient(90deg, #051350 0%, #700577 100%)
+            background: linear-gradient(90deg, #0e2588 0%, #960ca0 100%)
         p 
             line-height: 167%
             color: #202020
