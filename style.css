@@ -484,21 +484,13 @@ img.man2 {
 .polygon {
   display: flex;
   justify-content: center;
-  margin-bottom: -50px;
+  padding-bottom: 30px;
 }
-
-.polygon1 {
-  position: absolute;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 20px 100px 0 0;
-}
-.polygon1 img {
+.polygon img {
   width: 20%;
-  margin-right: 30px;
+  margin-right: 20px;
 }
-.polygon1 p {
+.polygon p {
   color: #fff;
   position: absolute;
 }
@@ -506,6 +498,7 @@ img.man2 {
 .block8 {
   background-color: #fff;
   width: 100%;
+  margin-top: -30px;
 }
 .block8 h2 {
   font-size: 36px;
