@@ -10,7 +10,7 @@ a
     text-decoration: none
 .container 
     max-width: 1440px
-    min-width: 1200px
+    
     width: 100%
     height: auto  
     margin: 0px auto
@@ -109,11 +109,12 @@ button.button2
     box-shadow: 3px 3px 38px 9px #192E55
     border-radius: 8px
 .card2
-    width: 200px
+    width: 185px
     height: 410px
     background: #FFFFFF
     box-shadow: 3px 3px 38px 9px #192E55
-    border-radius: 8px
+    border-top-left-radius: 8px
+    border-bottom-left-radius: 8px
     margin-left: 20px
 img.card1
     width: 270px
@@ -122,9 +123,9 @@ img.card1
     display: block
     box-shadow: none
 img.card2
-    width: 180px
+    width: 170px
     height: 310px
-    margin: 15px auto
+    margin: 15px 0 15px 15px
     display: block
     box-shadow: none
 p.collection
@@ -160,11 +161,24 @@ p.name
     width: 8px
     height: 8px
     display: flex
-    justify-content: center        
+    justify-content: center  
+.kolo1
+    width: 18px
+    height: 18px
+    border-radius: 50%
+    border: 1px solid #fff
+    display: flex
+    justify-content: center
+    align-items: center
+.low-kolo
+    width: 8px
+    height: 8px
+    border-radius: 50%
+    background-color: #fff
 
 .block2
     width: 920px
-    height: 395px
+    height: 400px
     background: #FFFFFF
     position: relative
     box-shadow: 5px 6px 43px rgba(30, 60, 114, 0.3)
@@ -178,12 +192,11 @@ p.name
     position: relative
     h2
         font-weight: bold
-        font-size: 36px
+        font-size: 34px
         color: #1E3C72
     p
-        font-weight: 550
         font-size: 18px
-        line-height: 140%
+        line-height: 130%
         color: #1E3C72
 p.t2
     font-size: 14px
@@ -221,7 +234,7 @@ img.orcs
         justify-content: center
         padding: 40px 0 30px 0
     img 
-        width: 625px
+        width: 600px
         height: 55px
         margin: 0 auto
         display: block
@@ -268,7 +281,7 @@ img.orcs
         justify-content: center
         padding-top: 30px
 .line2 
-    width: 1110.02px
+    width: 100%
     height: 0px
     border: 0.5px solid #CCCCCC
     transform: rotate(0.32deg)
@@ -322,8 +335,8 @@ img.v
 .b-l 
     margin-top: 30px
     img
-        width: 80px
-        height: 35px
+        width: 70px
+        height: 30px
         margin: 0 5px
 .fon1
     margin: 0 18px
@@ -338,7 +351,7 @@ img.cost
 .block6 
     background: #fff
     width: 100%
-    height: auto
+    height: 390px
 img.man2
     width: 600px
     height: 550px
@@ -373,6 +386,7 @@ img.man2
         
 .block8 
     background-color: #fff
+    width: 100%
     h2
         font-size: 36px
         line-height: 133%
@@ -392,7 +406,7 @@ img.man2
     justify-content: center
     align-items: center
 button.soc 
-    width: 270px
+    width: 260px
     height: 57px
     background: linear-gradient(90deg, #3B529E 0%, #CE51CE 100%)
     border-radius: 100px
@@ -469,3 +483,171 @@ img.s
     border: none
     outline: none
     margin-left: 20px
+
+
+@media ( max-width: 1100px )
+    .block1
+        height: 100%
+    .block1-1 
+        display: block
+    .card 
+        justify-content: center
+    .slider-items 
+        margin: 20px auto
+    .slider 
+        padding: 70px 0
+    .block1-1-text 
+        margin: 0 auto
+        max-width: 600px
+        width: 90%
+        text-align: center
+        button 
+            margin: 10px 0 20px 0
+    .card2
+        border-radius: 8px
+    img.card2
+        margin: 10px auto
+    .block2
+        width: 80%
+    .block2-1 
+        width: 80%
+        margin: 0px auto
+        text-align: center
+        padding: 0
+        p 
+            line-height: 200%
+    .soc-s
+        flex-wrap: wrap
+        width: 72%
+        margin: 0 auto
+    button.soc 
+        padding: 30px 0px
+    .block8 
+        p 
+            max-width: 600px
+            width: 90%
+
+@media ( max-width: 900px )
+    header 
+        padding: 0 20px 0 52px
+    a.menu  
+        margin: 0 5px
+        padding: 0 5px
+    .block2-1 
+        p 
+            line-height: 150%
+    .block4 
+        h1 
+            font-size: 30px
+    .fon-none 
+        display: none
+
+    img.bl5 
+        width: 250px
+        height: 250px
+
+    img.man2 
+        width: 250px
+        height: 200px
+
+@media ( max-width: 600px )
+    img.logo  
+        display: none
+    .block1-1-text 
+        h1 
+            font-size: 30px
+            line-height: 110%
+            text-align: center
+        p 
+            font-size: 16px
+    .card1
+        width: 150px
+        height: 300px
+    .card2
+        width: 92.5px
+        height: 230px
+        border-radius: 8px
+    img.card1
+        width: 135px
+        height: 225px
+        margin: 8px auto
+    img.card2
+        width: 85px
+        height: 155px
+        margin: 5px auto
+    p.collection, p.name
+        font-size: 14px
+        text-align: center
+        margin: 10px auto
+    
+    .block2-1 
+        width: 100%
+        h2 
+            font-size: 22px
+        p 
+            font-size: 14px
+    img.circle, img.circle1 
+        display: none
+
+    .block3 
+        h1 
+            font-size: 24px
+        img 
+            width: 300px
+            height: 25px
+        .oval 
+            width: 300px
+            height: 45px
+            h3  
+                font-size: 18px
+
+    .fon-none1 
+        display: none
+    img.v 
+        margin: 0 20px
+
+    .block5-1
+        width: 600px
+        text-align: center
+        h3 
+            font-size: 18px
+        h6 
+            font-size: 16px
+        p 
+            font-size: 12px
+            line-height: 140%
+            width: 90%
+            padding: 0 5px
+    .b-l  
+        img 
+            width: 40px
+            height: 17px
+
+    .block9 
+        height: 250px
+        h4 
+            font-size: 18px
+            width: 90%
+            text-align: center
+            margin: 0 auto
+        p 
+            font-size: 14px
+            max-width: 500px
+            width: 90%
+    .form 
+        width: 300px
+        margin: 30px auto
+
+    @media ( max-width: 470px ) 
+        .b-l  
+            img 
+                display: none
+        img.bl5 
+            width: 150px
+            height: 150px
+
+        img.man2 
+            width: 150px
+            height: 100px
+        .kolo1 
+            display: none
